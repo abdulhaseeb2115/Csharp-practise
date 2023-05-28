@@ -1,0 +1,62 @@
+﻿@model List<Assign5.Models.Employees>
+
+@{
+    ViewBag.Title = "Employee List";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().ssn)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.First().salary)
+        </th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.First().phone)
+        </th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.First().child.name)
+        </th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.First().department.dname)
+        </th>
+
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ssn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.child.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.department.dname)
+            </td>
+
+            @*<td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>*@
+        </tr>
+    }
+
+</table>

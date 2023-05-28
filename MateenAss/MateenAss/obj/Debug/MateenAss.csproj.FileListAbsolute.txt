@@ -1,0 +1,15 @@
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\bin\Debug\MateenAss.exe.config
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\bin\Debug\MateenAss.exe
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\bin\Debug\MateenAss.pdb
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\obj\Debug\MateenAss.csproj.AssemblyReference.cache
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\obj\Debug\MainWindow.g.cs
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\obj\Debug\App.g.cs
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\obj\Debug\MateenAss_MarkupCompile.cache
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\obj\Debug\MateenAss_MarkupCompile.lref
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\obj\Debug\MainWindow.baml
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\obj\Debug\MateenAss.g.resources
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\obj\Debug\MateenAss.Properties.Resources.resources
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\obj\Debug\MateenAss.csproj.GenerateResource.cache
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\obj\Debug\MateenAss.csproj.CoreCompileInputs.cache
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\obj\Debug\MateenAss.exe
+D:\1_UNI\Programming\C#\MateenAss\MateenAss\obj\Debug\MateenAss.pdb

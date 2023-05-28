@@ -1,0 +1,7 @@
+D:\1_UNI\Programming\C#\VpLabAssignment2\VpLabAssignment2\bin\Debug\VpLabAssignment2.exe.config
+D:\1_UNI\Programming\C#\VpLabAssignment2\VpLabAssignment2\bin\Debug\VpLabAssignment2.exe
+D:\1_UNI\Programming\C#\VpLabAssignment2\VpLabAssignment2\bin\Debug\VpLabAssignment2.pdb
+D:\1_UNI\Programming\C#\VpLabAssignment2\VpLabAssignment2\obj\Debug\VpLabAssignment2.csproj.AssemblyReference.cache
+D:\1_UNI\Programming\C#\VpLabAssignment2\VpLabAssignment2\obj\Debug\VpLabAssignment2.csproj.CoreCompileInputs.cache
+D:\1_UNI\Programming\C#\VpLabAssignment2\VpLabAssignment2\obj\Debug\VpLabAssignment2.exe
+D:\1_UNI\Programming\C#\VpLabAssignment2\VpLabAssignment2\obj\Debug\VpLabAssignment2.pdb

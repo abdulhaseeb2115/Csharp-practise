@@ -1,0 +1,43 @@
+﻿<Window x:Class="usman.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:usman"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+
+
+    <Grid Background="Aqua">
+
+        <Border Height="200" Width="200" Background="AliceBlue" CornerRadius="30,20,10,0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10" BorderBrush="Black" BorderThickness="10">
+
+            <Button Content="ButtonNo1" VerticalAlignment="Center" HorizontalAlignment="Center" Padding="30"/>
+
+        </Border>
+
+        <StackPanel Height="400" Width="300" Background="Black">
+
+            <Button Content="Button 1" Height="50" Margin="30" />
+            <Button Content="Button 2" Height="50" Margin="30" />
+            <Button Content="Button 2" Height="50" Margin="30" />
+
+
+        </StackPanel>
+
+        <DockPanel Height="30" Width="300" Background="Azure" VerticalAlignment="Top" HorizontalAlignment="Right">
+
+            <Button Content="b1" Width="20" Height="15" Margin="20,0" />
+            <Button Content="b1" Width="20" Height="15" Margin="20,0" />
+            <Button Content="b1" Width="20" Height="15" Margin="20,0" />
+            <Button Content="b1" Width="20" Height="15" Margin="20,0" />
+            <Button Content="b1" Width="20" Height="15" Margin="20,0" />
+
+        </DockPanel>
+        
+
+
+    </Grid>
+    
+    
+</Window>

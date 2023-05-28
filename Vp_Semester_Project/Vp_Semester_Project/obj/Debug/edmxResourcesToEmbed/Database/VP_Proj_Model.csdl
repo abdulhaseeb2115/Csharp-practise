@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Vp_Semester_Project_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Admin_Password">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login_password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Class_Course_Teacher">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Class_name" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Course_id" Type="Int32" Nullable="false" />
+    <Property Name="Teacher_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Course_Reg" Relationship="Self.FK__Class_Cou__Cours__35BCFE0A" FromRole="Class_Course_Teacher" ToRole="Course_Reg" />
+    <NavigationProperty Name="Teacher_Reg" Relationship="Self.FK__Class_Cou__Teach__36B12243" FromRole="Class_Course_Teacher" ToRole="Teacher_Reg" />
+  </EntityType>
+  <EntityType Name="Course_Reg">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Credit_hrs" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Prerequisites" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Class_Course_Teacher" Relationship="Self.FK__Class_Cou__Cours__35BCFE0A" FromRole="Course_Reg" ToRole="Class_Course_Teacher" />
+    <NavigationProperty Name="Student_Attendance" Relationship="Self.FK__Student_A__Cours__300424B4" FromRole="Course_Reg" ToRole="Student_Attendance" />
+    <NavigationProperty Name="Student_marks" Relationship="Self.FK__Student_m__Cours__30F848ED" FromRole="Course_Reg" ToRole="Student_marks" />
+  </EntityType>
+  <EntityType Name="Notification">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="For" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="From" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Header" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Body" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="Student_Attendance">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Batch_s" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Batch_y" Type="Int32" Nullable="false" />
+    <Property Name="Roll_no" Type="Int32" Nullable="false" />
+    <Property Name="Class_name" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Course_id" Type="Int32" Nullable="false" />
+    <Property Name="attendance_status" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Course_Reg" Relationship="Self.FK__Student_A__Cours__300424B4" FromRole="Student_Attendance" ToRole="Course_Reg" />
+  </EntityType>
+  <EntityType Name="Student_marks">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Batch_s" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Batch_y" Type="Int32" Nullable="false" />
+    <Property Name="Roll_no" Type="Int32" Nullable="false" />
+    <Property Name="Class_name" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Course_id" Type="Int32" Nullable="false" />
+    <Property Name="Quiz_1" Type="Int32" Nullable="false" />
+    <Property Name="Quiz_2" Type="Int32" Nullable="false" />
+    <Property Name="Quiz_3" Type="Int32" Nullable="false" />
+    <Property Name="Quiz_4" Type="Int32" Nullable="false" />
+    <Property Name="Assignment_1" Type="Int32" Nullable="false" />
+    <Property Name="Assignment_2" Type="Int32" Nullable="false" />
+    <Property Name="Assignment_3" Type="Int32" Nullable="false" />
+    <Property Name="Assignment_4" Type="Int32" Nullable="false" />
+    <Property Name="Mids" Type="Int32" Nullable="false" />
+    <Property Name="Terinals" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Course_Reg" Relationship="Self.FK__Student_m__Cours__30F848ED" FromRole="Student_marks" ToRole="Course_Reg" />
+  </EntityType>
+  <EntityType Name="Student_Reg">
+    <Key>
+      <PropertyRef Name="SerialNo" />
+    </Key>
+    <Property Name="SerialNo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Batch_s" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Batch_y" Type="Int32" Nullable="false" />
+    <Property Name="Roll_no" Type="Int32" Nullable="false" />
+    <Property Name="Class_name" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Father_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Dob" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Login_password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Teacher_Reg">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Father_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Qualification" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Login_password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Class_Course_Teacher" Relationship="Self.FK__Class_Cou__Teach__36B12243" FromRole="Teacher_Reg" ToRole="Class_Course_Teacher" />
+  </EntityType>
+  <Association Name="FK__Class_Cou__Cours__35BCFE0A">
+    <End Role="Course_Reg" Type="Self.Course_Reg" Multiplicity="1" />
+    <End Role="Class_Course_Teacher" Type="Self.Class_Course_Teacher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Course_Reg">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Class_Course_Teacher">
+        <PropertyRef Name="Course_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Class_Cou__Teach__36B12243">
+    <End Role="Teacher_Reg" Type="Self.Teacher_Reg" Multiplicity="1" />
+    <End Role="Class_Course_Teacher" Type="Self.Class_Course_Teacher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teacher_Reg">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Class_Course_Teacher">
+        <PropertyRef Name="Teacher_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student_A__Cours__300424B4">
+    <End Role="Course_Reg" Type="Self.Course_Reg" Multiplicity="1" />
+    <End Role="Student_Attendance" Type="Self.Student_Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Course_Reg">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Student_Attendance">
+        <PropertyRef Name="Course_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student_m__Cours__30F848ED">
+    <End Role="Course_Reg" Type="Self.Course_Reg" Multiplicity="1" />
+    <End Role="Student_marks" Type="Self.Student_marks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Course_Reg">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Student_marks">
+        <PropertyRef Name="Course_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Vp_Semester_Project_DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Admin_Password" EntityType="Self.Admin_Password" />
+    <EntitySet Name="Class_Course_Teacher" EntityType="Self.Class_Course_Teacher" />
+    <EntitySet Name="Course_Reg" EntityType="Self.Course_Reg" />
+    <EntitySet Name="Notifications" EntityType="Self.Notification" />
+    <EntitySet Name="Student_Attendance" EntityType="Self.Student_Attendance" />
+    <EntitySet Name="Student_marks" EntityType="Self.Student_marks" />
+    <EntitySet Name="Student_Reg" EntityType="Self.Student_Reg" />
+    <EntitySet Name="Teacher_Reg" EntityType="Self.Teacher_Reg" />
+    <AssociationSet Name="FK__Class_Cou__Cours__35BCFE0A" Association="Self.FK__Class_Cou__Cours__35BCFE0A">
+      <End Role="Course_Reg" EntitySet="Course_Reg" />
+      <End Role="Class_Course_Teacher" EntitySet="Class_Course_Teacher" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Class_Cou__Teach__36B12243" Association="Self.FK__Class_Cou__Teach__36B12243">
+      <End Role="Teacher_Reg" EntitySet="Teacher_Reg" />
+      <End Role="Class_Course_Teacher" EntitySet="Class_Course_Teacher" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student_A__Cours__300424B4" Association="Self.FK__Student_A__Cours__300424B4">
+      <End Role="Course_Reg" EntitySet="Course_Reg" />
+      <End Role="Student_Attendance" EntitySet="Student_Attendance" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student_m__Cours__30F848ED" Association="Self.FK__Student_m__Cours__30F848ED">
+      <End Role="Course_Reg" EntitySet="Course_Reg" />
+      <End Role="Student_marks" EntitySet="Student_marks" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

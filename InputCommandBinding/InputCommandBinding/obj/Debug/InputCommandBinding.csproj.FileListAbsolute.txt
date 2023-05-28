@@ -1,0 +1,15 @@
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\bin\Debug\InputCommandBinding.exe.config
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\bin\Debug\InputCommandBinding.exe
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\bin\Debug\InputCommandBinding.pdb
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\obj\Debug\InputCommandBinding.csproj.AssemblyReference.cache
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\obj\Debug\MainWindow.g.cs
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\obj\Debug\App.g.cs
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\obj\Debug\InputCommandBinding_MarkupCompile.cache
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\obj\Debug\InputCommandBinding_MarkupCompile.lref
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\obj\Debug\MainWindow.baml
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\obj\Debug\InputCommandBinding.g.resources
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\obj\Debug\InputCommandBinding.Properties.Resources.resources
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\obj\Debug\InputCommandBinding.csproj.GenerateResource.cache
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\obj\Debug\InputCommandBinding.csproj.CoreCompileInputs.cache
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\obj\Debug\InputCommandBinding.exe
+D:\1_UNI\Programming\C#\InputCommandBinding\InputCommandBinding\obj\Debug\InputCommandBinding.pdb

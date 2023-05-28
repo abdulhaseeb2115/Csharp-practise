@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Vp_Semester_Project_DBModelStoreContainer" CdmEntityContainer="Vp_Semester_Project_DBEntities">
+    <EntitySetMapping Name="Admin_Password">
+      <EntityTypeMapping TypeName="Vp_Semester_Project_DBModel.Admin_Password">
+        <MappingFragment StoreEntitySet="Admin_Password">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Login_password" ColumnName="Login_password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Class_Course_Teacher">
+      <EntityTypeMapping TypeName="Vp_Semester_Project_DBModel.Class_Course_Teacher">
+        <MappingFragment StoreEntitySet="Class_Course_Teacher">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Class_name" ColumnName="Class_name" />
+          <ScalarProperty Name="Course_id" ColumnName="Course_id" />
+          <ScalarProperty Name="Teacher_id" ColumnName="Teacher_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Course_Reg">
+      <EntityTypeMapping TypeName="Vp_Semester_Project_DBModel.Course_Reg">
+        <MappingFragment StoreEntitySet="Course_Reg">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Credit_hrs" ColumnName="Credit_hrs" />
+          <ScalarProperty Name="Prerequisites" ColumnName="Prerequisites" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notifications">
+      <EntityTypeMapping TypeName="Vp_Semester_Project_DBModel.Notification">
+        <MappingFragment StoreEntitySet="Notifications">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="For" ColumnName="For" />
+          <ScalarProperty Name="From" ColumnName="From" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Body" ColumnName="Body" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student_Attendance">
+      <EntityTypeMapping TypeName="Vp_Semester_Project_DBModel.Student_Attendance">
+        <MappingFragment StoreEntitySet="Student_Attendance">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Batch_s" ColumnName="Batch_s" />
+          <ScalarProperty Name="Batch_y" ColumnName="Batch_y" />
+          <ScalarProperty Name="Roll_no" ColumnName="Roll_no" />
+          <ScalarProperty Name="Class_name" ColumnName="Class_name" />
+          <ScalarProperty Name="Course_id" ColumnName="Course_id" />
+          <ScalarProperty Name="attendance_status" ColumnName="attendance_status" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student_marks">
+      <EntityTypeMapping TypeName="Vp_Semester_Project_DBModel.Student_marks">
+        <MappingFragment StoreEntitySet="Student_marks">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Batch_s" ColumnName="Batch_s" />
+          <ScalarProperty Name="Batch_y" ColumnName="Batch_y" />
+          <ScalarProperty Name="Roll_no" ColumnName="Roll_no" />
+          <ScalarProperty Name="Class_name" ColumnName="Class_name" />
+          <ScalarProperty Name="Course_id" ColumnName="Course_id" />
+          <ScalarProperty Name="Quiz_1" ColumnName="Quiz_1" />
+          <ScalarProperty Name="Quiz_2" ColumnName="Quiz_2" />
+          <ScalarProperty Name="Quiz_3" ColumnName="Quiz_3" />
+          <ScalarProperty Name="Quiz_4" ColumnName="Quiz_4" />
+          <ScalarProperty Name="Assignment_1" ColumnName="Assignment_1" />
+          <ScalarProperty Name="Assignment_2" ColumnName="Assignment_2" />
+          <ScalarProperty Name="Assignment_3" ColumnName="Assignment_3" />
+          <ScalarProperty Name="Assignment_4" ColumnName="Assignment_4" />
+          <ScalarProperty Name="Mids" ColumnName="Mids" />
+          <ScalarProperty Name="Terinals" ColumnName="Terinals" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student_Reg">
+      <EntityTypeMapping TypeName="Vp_Semester_Project_DBModel.Student_Reg">
+        <MappingFragment StoreEntitySet="Student_Reg">
+          <ScalarProperty Name="SerialNo" ColumnName="SerialNo" />
+          <ScalarProperty Name="Batch_s" ColumnName="Batch_s" />
+          <ScalarProperty Name="Batch_y" ColumnName="Batch_y" />
+          <ScalarProperty Name="Roll_no" ColumnName="Roll_no" />
+          <ScalarProperty Name="Class_name" ColumnName="Class_name" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Father_name" ColumnName="Father_name" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Login_password" ColumnName="Login_password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Teacher_Reg">
+      <EntityTypeMapping TypeName="Vp_Semester_Project_DBModel.Teacher_Reg">
+        <MappingFragment StoreEntitySet="Teacher_Reg">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Father_name" ColumnName="Father_name" />
+          <ScalarProperty Name="Qualification" ColumnName="Qualification" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Login_password" ColumnName="Login_password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

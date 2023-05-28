@@ -1,0 +1,7 @@
+D:\1_UNI\Programming\C#\mids_prep\mids_prep\obj\Debug\mids_prep.csproj.CoreCompileInputs.cache
+D:\1_UNI\Programming\C#\mids_prep\mids_prep\bin\Debug\mids_prep.exe.config
+D:\1_UNI\Programming\C#\mids_prep\mids_prep\bin\Debug\mids_prep.exe
+D:\1_UNI\Programming\C#\mids_prep\mids_prep\bin\Debug\mids_prep.pdb
+D:\1_UNI\Programming\C#\mids_prep\mids_prep\obj\Debug\mids_prep.exe
+D:\1_UNI\Programming\C#\mids_prep\mids_prep\obj\Debug\mids_prep.pdb
+D:\1_UNI\Programming\C#\mids_prep\mids_prep\obj\Debug\mids_prep.csproj.AssemblyReference.cache

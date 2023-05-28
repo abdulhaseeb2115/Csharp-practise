@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputCommandBinding", "InputCommandBinding\InputCommandBinding.csproj", "{A8FCDC16-0A75-4135-BC68-09B381FCF10C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8FCDC16-0A75-4135-BC68-09B381FCF10C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FCDC16-0A75-4135-BC68-09B381FCF10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FCDC16-0A75-4135-BC68-09B381FCF10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FCDC16-0A75-4135-BC68-09B381FCF10C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F880018-5458-48BC-93B9-91CFCD3CB3C2}
+	EndGlobalSection
+EndGlobal

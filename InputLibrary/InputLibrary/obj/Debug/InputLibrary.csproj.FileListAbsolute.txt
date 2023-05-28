@@ -1,0 +1,7 @@
+D:\1_UNI\Programming\C#\InputLibrary\InputLibrary\bin\Debug\InputLibrary.exe.config
+D:\1_UNI\Programming\C#\InputLibrary\InputLibrary\bin\Debug\InputLibrary.exe
+D:\1_UNI\Programming\C#\InputLibrary\InputLibrary\bin\Debug\InputLibrary.pdb
+D:\1_UNI\Programming\C#\InputLibrary\InputLibrary\obj\Debug\InputLibrary.csproj.AssemblyReference.cache
+D:\1_UNI\Programming\C#\InputLibrary\InputLibrary\obj\Debug\InputLibrary.csproj.CoreCompileInputs.cache
+D:\1_UNI\Programming\C#\InputLibrary\InputLibrary\obj\Debug\InputLibrary.exe
+D:\1_UNI\Programming\C#\InputLibrary\InputLibrary\obj\Debug\InputLibrary.pdb

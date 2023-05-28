@@ -1,0 +1,15 @@
+D:\1_UNI\Programming\C#\usman\usman\obj\Debug\usman.csproj.AssemblyReference.cache
+D:\1_UNI\Programming\C#\usman\usman\obj\Debug\MainWindow.g.cs
+D:\1_UNI\Programming\C#\usman\usman\obj\Debug\App.g.cs
+D:\1_UNI\Programming\C#\usman\usman\obj\Debug\usman_MarkupCompile.cache
+D:\1_UNI\Programming\C#\usman\usman\obj\Debug\usman_MarkupCompile.lref
+D:\1_UNI\Programming\C#\usman\usman\bin\Debug\usman.exe.config
+D:\1_UNI\Programming\C#\usman\usman\bin\Debug\usman.exe
+D:\1_UNI\Programming\C#\usman\usman\bin\Debug\usman.pdb
+D:\1_UNI\Programming\C#\usman\usman\obj\Debug\MainWindow.baml
+D:\1_UNI\Programming\C#\usman\usman\obj\Debug\usman.g.resources
+D:\1_UNI\Programming\C#\usman\usman\obj\Debug\usman.Properties.Resources.resources
+D:\1_UNI\Programming\C#\usman\usman\obj\Debug\usman.csproj.GenerateResource.cache
+D:\1_UNI\Programming\C#\usman\usman\obj\Debug\usman.csproj.CoreCompileInputs.cache
+D:\1_UNI\Programming\C#\usman\usman\obj\Debug\usman.exe
+D:\1_UNI\Programming\C#\usman\usman\obj\Debug\usman.pdb

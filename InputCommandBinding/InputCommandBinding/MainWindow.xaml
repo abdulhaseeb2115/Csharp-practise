@@ -1,0 +1,16 @@
+﻿<Window x:Class="InputCommandBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InputCommandBinding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid Background="Aqua">
+
+        <TextBox x:Name="tb1" Text="" Width="100" Height="50" Margin="500,53,193.6,317" />
+        <TextBox x:Name="tb2" Text="{Binding Text,ElementName=tb1}" Width="100" Height="50" Margin="139,54,554.6,316" />
+        <Slider Name="sl1" HorizontalAlignment="Left" Margin="188,212,0,0" VerticalAlignment="Top" Height="37" Width="348" Value="{Binding Text,ElementName=tb2}"/>
+    </Grid>
+</Window>

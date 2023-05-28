@@ -1,0 +1,28 @@
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\bin\Debug\assignDB.mdf
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\bin\Debug\assignDB_log.ldf
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\bin\Debug\Class Assignment 4.exe.config
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\bin\Debug\Class Assignment 4.exe
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\bin\Debug\Class Assignment 4.pdb
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\bin\Debug\EntityFramework.dll
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\bin\Debug\EntityFramework.SqlServer.dll
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\bin\Debug\EntityFramework.xml
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\bin\Debug\EntityFramework.SqlServer.xml
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\Class Assignment 4.csproj.AssemblyReference.cache
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\Courses.g.cs
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\MainWindow.g.cs
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\App.g.cs
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\Class Assignment 4_Content.g.cs
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\Class Assignment 4_MarkupCompile.cache
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\Class Assignment 4_MarkupCompile.lref
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\Courses.baml
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\MainWindow.baml
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\Class Assignment 4.g.resources
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\Class_Assignment_4.Properties.Resources.resources
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\Class Assignment 4.csproj.GenerateResource.cache
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\Class Assignment 4.csproj.CoreCompileInputs.cache
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\Class Assignment 4.exe
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\Class Assignment 4.pdb
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\UnassignedCourses.g.cs
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\UnassignedStudents.g.cs
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\UnassignedCourses.baml
+D:\1_UNI\Programming\C#\Class Assignment 4\Class Assignment 4\obj\Debug\UnassignedStudents.baml
